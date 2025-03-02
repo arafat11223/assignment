@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Date and Time</title>
+    <link rel="stylesheet" href="W4_(DOM)style.css">
+</head>
+<body>
+    <h1>Click the button to display the current date and time</h1>
+    <button onclick="displayDateTime()">Show Current Date and Time</button>
+    <p id="datetime"></p>
+
+    <script>
+        function displayDateTime() {
+            var current_date_time = new Date();
+            document.getElementById('datetime').innerText = current_date_time;
+        }
+    </script>
+</body>
+</html>

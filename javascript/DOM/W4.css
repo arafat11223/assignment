@@ -1,0 +1,22 @@
+body{
+    background-color: bisque;
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15%;
+        font-style: italic;
+    }
+    button{
+        position: relative;
+        font-family: Impact, sans-serif;
+        left: 45%;
+        background-color: aqua;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+    }
+}
